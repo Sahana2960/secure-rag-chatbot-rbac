@@ -101,7 +101,7 @@ with st.sidebar:
                             "Action": "LOGIN",
                             "User": parts[3],
                             "Role": parts[5],
-                            "File": "-"
+                            
                         })
                     elif "DOWNLOAD" in line:
                         parsed.append({
@@ -109,7 +109,7 @@ with st.sidebar:
                             "Action": "DOWNLOAD",
                             "User": parts[3],
                             "Role": parts[5],
-                            "File": parts[7]
+                            
                         })
 
                 if parsed:
