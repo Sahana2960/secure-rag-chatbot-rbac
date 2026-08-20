@@ -1,3 +1,15 @@
+FinGuard 
+Secure Enterprise Knowledge Assistant using RAG and RBAC
+
+FinGuard is an AI-powered enterprise knowledge assistant that enables employees to retrieve information from internal company documents using natural language queries.
+The system combines **Retrieval-Augmented Generation (RAG)** with **Role-Based Access Control (RBAC)** to provide source-backed answers while ensuring users can only access information authorized for their role.
+
+Problem Statement
+
+Organizations store critical information across departments such as Finance, HR, Engineering, Marketing, and General Operations.
+Employees often spend time searching through internal documents for policies, procedures, and operational information. At the same time, sensitive departmental information must not be exposed to unauthorized users.
+FinGuard addresses this problem by combining semantic document retrieval with backend-enforced RBAC, allowing employees to quickly retrieve relevant information while maintaining controlled access.
+
 Features
 Core Functionality
 
@@ -182,8 +194,20 @@ Feedback-based answer improvement
 
 📊 Measurable Impact
 
-Reduced time to retrieve internal information
-
-Improved data security and access control
-
 Increased trust through source-backed responses
+Reduces time spent searching internal policies and procedures
+Improves productivity through AI-powered knowledge retrieval
+Helps prevent unauthorized access to departmental information
+Supports secure enterprise knowledge management
+Improves trust through source-backed responses
+
+Security Highlights
+
+Passwords hashed using Argon2
+JWT-based stateless authentication
+RBAC enforced at the backend
+Unauthorized departmental information is restricted
+No secrets hardcoded in the application
+Frontend does not control authorization decisions
+Source documents are displayed with generated responses
+
