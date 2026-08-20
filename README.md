@@ -1,4 +1,4 @@
-FinGuard 
+FinGuard :
 Secure Enterprise Knowledge Assistant using RAG and RBAC
 
 FinGuard is an AI-powered enterprise knowledge assistant that enables employees to retrieve information from internal company documents using natural language queries.
